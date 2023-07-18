@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
     session({
-        secret: "555b5b51-419d-4b08-b297-435196148153",
+        secret: "b77eb802-079d-4709-9396-2b0d61d5680d",
         resave: false,
         saveUninitialized: false,
     })
@@ -27,9 +27,10 @@ app.set("views", path.join(__dirname, "/views"));
 
 app.use("/", mainRouter);
 
+/*
 app.use((req, res) => {
     res.status(404).render("notFound");
-});
+}); */
 
 app.listen(3000, () => {
     console.log("Servidor funcionando");

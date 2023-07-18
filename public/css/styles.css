@@ -1,0 +1,14 @@
+/* Home */
+.home-body {
+    background-image: url("../images/backgrounds/main-bg.jpeg");
+    background-size: cover;
+}
+
+.home-h1 {
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+    margin-top: 4.5rem;
+    margin-left: 14.5rem;
+}
